@@ -1,0 +1,46 @@
+# ======= #
+# General #
+# ======= #
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# =================== #
+# Virtual Environment #
+# =================== #
+# Ignore the virtual environment folder
+.venv/
+venv/
+*.env
+
+# ================= #
+# Python Caches   #
+# ================= #
+# Ignore compiled Python files and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ================= #
+# IDE / Editor      #
+# ================= #
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# ================== #
+# Build & Install  #
+# ================== #
+# Ignore build artifacts and metadata
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ============= #
+# Testing       #
+# ============= #
+.pytest_cache/
